@@ -1,0 +1,27 @@
+---
+output: 
+  html_document:
+    includes:
+      in_header: resizer.html
+runtime: shiny_prerendered
+---
+  
+```{r setup, include=FALSE}  
+library(tidyverse)
+library(janitor)
+library(learnr)
+
+here::here()
+
+
+# Load data
+whr15 <- read_csv(here::here("data", "raw", "whr", "WHR2015.csv")) %>% clean_names()
+whr16 <- read_csv(here::here("data", "raw", "whr", "WHR2016.csv")) %>% clean_names()
+whr17 <- read_csv(here::here("data", "raw", "whr", "WHR2017.csv")) %>% clean_names()
+```
+
+
+```{r addition, exercise=TRUE}
+
+```
+

@@ -1,0 +1,12 @@
+name: dime-r-trainings
+title: dime-r-trainings
+username:
+account: rrmaximiliano
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3849102
+bundleId: 4392123
+url: https://rrmaximiliano.shinyapps.io/dime-r-trainings/
+when: 1616643813.28771
+asMultiple: FALSE
+asStatic: FALSE
