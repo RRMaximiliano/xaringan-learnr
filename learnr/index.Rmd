@@ -18,6 +18,7 @@ here::here()
 whr15 <- read_csv(here::here("data", "raw", "whr", "WHR2015.csv")) %>% clean_names()
 whr16 <- read_csv(here::here("data", "raw", "whr", "WHR2016.csv")) %>% clean_names()
 whr17 <- read_csv(here::here("data", "raw", "whr", "WHR2017.csv")) %>% clean_names()
+whr   <- read_csv(here::here("data", "raw", "whr", "whr_panel.csv"))
 ```
 
 
