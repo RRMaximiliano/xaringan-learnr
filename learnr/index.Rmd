@@ -1,6 +1,7 @@
 ---
 output: 
   html_document:
+    css: css/style.css
     includes:
       in_header: resizer.html
 runtime: shiny_prerendered

@@ -5,8 +5,8 @@ account: rrmaximiliano
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3852777
-bundleId: 4394661
+bundleId: 4421009
 url: https://rrmaximiliano.shinyapps.io/learnr-app/
-when: 1616693976.78742
+when: 1617291520.52245
 asMultiple: FALSE
 asStatic: FALSE
