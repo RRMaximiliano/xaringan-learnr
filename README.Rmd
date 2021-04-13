@@ -24,3 +24,7 @@ knitr::include_graphics("prtscr/slide1.png")
 ```{r, echo = FALSE}
 knitr::include_graphics("prtscr/slide2.png")
 ```
+
+## Credits
+
+This material is based on [`@_bcullen`](https://twitter.com/_bcullen)'s xaringan + learnr integration. 

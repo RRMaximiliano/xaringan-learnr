@@ -6,6 +6,16 @@ body {
   font-family: 'Fira Sans','Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
 }
 
-#editor {
-  font-family: 'Share Tech Mono', monospace;
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Fira Sans';
+  display: inline-block;
+  padding: 12px;
+  border-right: 1px solid #ddd;
+}
+
+.main-container {
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
