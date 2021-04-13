@@ -20,6 +20,7 @@ whr15 <- read_csv(here::here("data", "raw", "whr", "WHR2015.csv")) %>% clean_nam
 whr16 <- read_csv(here::here("data", "raw", "whr", "WHR2016.csv")) %>% clean_names()
 whr17 <- read_csv(here::here("data", "raw", "whr", "WHR2017.csv")) %>% clean_names()
 whr   <- read_csv(here::here("data", "raw", "whr", "whr_panel.csv"))
+census <- read_rds(here::here("data", "final", "census.RDS"))  
 
 # Create vars for Intro to R session
 v1 <- c(1,2,3,4,5)
